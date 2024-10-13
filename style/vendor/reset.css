@@ -1,6 +1,11 @@
 @font-face {
     font-family: "Jost";
-    src: url(../../fonts/Jost-Medium.ttf)
+    src: url(../../font/Jost-Medium.ttf)
+}
+
+@font-face {
+	font-family: "DeltaGothicOne";
+	src: url(../../font/DelaGothicOne-Regular.ttf);
 }
 
 html, body, div, span, applet, object, iframe,
