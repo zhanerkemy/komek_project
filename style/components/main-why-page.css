@@ -1,0 +1,22 @@
+.main-why-page{
+    display: flex;
+    height: 512x;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-why-page-info h1{
+    font-family: "DeltaGothicOne";
+    font-size: 70px;
+    margin-bottom: 100px;
+    text-align:center;
+}
+.main-why-page-info p {
+    font-size: 28px; 
+    line-height: 1.6; 
+    text-align: center; /* Align text for better readability */
+    margin-bottom: 20px;
+}
+.image-container {
+    text-align: center;
+}

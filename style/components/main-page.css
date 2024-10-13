@@ -1,0 +1,12 @@
+.main-page{
+    display: flex;
+    height: 512px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-page-info h1{
+    font-family: "DeltaGothicOne";
+    font-size: 73px;
+    margin-bottom: 40px;
+}
