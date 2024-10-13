@@ -2,6 +2,7 @@ body {
     margin:0;
     padding:0;
     Background-color: #ffffff;
+    font-family: 'DelaGothicOne', sans-serif;
 }
 
 .main-content {
@@ -32,7 +33,7 @@ footer {
 
 .flex-item {
     flex: 1;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .flex-item:last-child {
