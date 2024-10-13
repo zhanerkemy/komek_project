@@ -1,21 +1,26 @@
 .header{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin: 0 40px;
+    align-items: center;
+    padding: 20px 0;
 }
 
 .header_item a{
     font-size: 24px;
     margin-left: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .header_item>img{
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
+    margin-left: 90px;
 }
 
-.header-item:last-child{
+.header_item:last-child{
+    width: 60%;
     display: flex;
     justify-content: space-evenly;
-    width: 70%;
 }
