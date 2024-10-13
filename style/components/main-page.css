@@ -39,9 +39,10 @@
     height: 20px;
 }
 
-.main-page-info .gradient{
+.main-page-info h1 .gradient{
     font-family: "DeltaGothicOne";
     font-size: 73px;
     margin-bottom: 20px;
     width: auto;
+    color: linear-gradient(90deg, #EC7207 0%, #FD5B80 100%);
 }
