@@ -47,3 +47,7 @@ h3 {
 p {
     margin: 0; 
 }
+
+.gradient{
+    color: linear-gradient(90deg, #EC7207 0%, #FD5B80 100%) !important;
+}

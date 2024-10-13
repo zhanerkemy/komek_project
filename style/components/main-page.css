@@ -1,12 +1,47 @@
 .main-page{
     display: flex;
-    height: 512px;
+    height: 600px;
     justify-content: space-between;
     align-items: center;
+}
+
+.main-page-info{
+    margin-left: 90px;
 }
 
 .main-page-info h1{
     font-family: "DeltaGothicOne";
     font-size: 73px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.main-page-info h4{
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+.main-page-info p {
+    font-size: 24px;
+}
+
+.main-page .help{
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #000;
+    width: 373px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.main-page .help img{
+    margin-left: 30px;
+    width: 33px;
+    height: 20px;
+}
+
+.main-page-info .gradient{
+    font-family: "DeltaGothicOne";
+    font-size: 73px;
+    margin-bottom: 20px;
+    width: auto;
 }
