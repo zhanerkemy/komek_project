@@ -6,4 +6,10 @@
 @import url(components/main-work-page.css);
 @import url(components/news.css);
 @import url(components/how-to-do.css);
+<<<<<<< HEAD
 @import url(components/contact.css);
+=======
+@import url(components/contributions.css);
+@import url(components/footer.css);
+@import url(components/bonus-system.css);
+>>>>>>> d102c67fe054a5ab80180801967bb67a799d47a4
