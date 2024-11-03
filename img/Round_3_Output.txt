@@ -1,0 +1,66 @@
+======================
+Running tests on a single file (sonnets.txt)
+======================
+TESTS IN GROUP:    305
+TESTS RUN:         305
+TESTS PASSED:      305
+TEST GROUP WEIGHT: 15%
+======================
+Running tests on a single directory with a single file (Sonnets)
+======================
+TESTS IN GROUP:    305
+TESTS RUN:         305
+TESTS PASSED:      305
+TEST GROUP WEIGHT: 15%
+======================
+Running tests on a single directory with multiple files (Elvis)
+======================
+TESTS IN GROUP:    226
+TESTS RUN:         226
+TESTS PASSED:      226
+TEST GROUP WEIGHT: 15%
+======================
+Tests on simple words (on all music files)
+======================
+TESTS IN GROUP:    2666
+TESTS RUN:         2666
+TESTS PASSED:      2666
+TEST GROUP WEIGHT: 15%
+======================
+Advanced tests (on all music files)
+======================
+TESTS IN GROUP:    3046
+TESTS RUN:         3046
+TESTS PASSED:      3046
+TEST GROUP WEIGHT: 15%
+======================
+Checking if wysiwyg is in an Elvis song
+======================
+TESTS IN GROUP:    1
+TESTS RUN:         1
+TESTS PASSED:      1
+TEST GROUP WEIGHT: 4%
+======================
+Testing __str__ function
+======================
+TESTS IN GROUP:    525
+TESTS RUN:         525
+TESTS PASSED:      525
+TEST GROUP WEIGHT: 4%
+======================
+Testing if the number of distinct words is correct
+======================
+TESTS IN GROUP:    1
+TESTS RUN:         1
+TESTS PASSED:      1
+TEST GROUP WEIGHT: 4%
+======================
+Testing if occurrences yields the proper word occurrences in a file
+======================
+TESTS IN GROUP:    187
+TESTS RUN:         187
+TESTS PASSED:      187
+TEST GROUP WEIGHT: 13%
+======================
+ TOTAL TESTING SCORE: 100.0
+======================

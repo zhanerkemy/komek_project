@@ -1,0 +1,108 @@
+.bonus-system{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url(/img/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:scroll;
+}
+
+.bonus-system h2{
+    font-size: 60px;
+    font-family: "DeltaGothicOne";
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#bonus-text{
+    text-align: center;
+}
+
+.bonus-system p{
+    font-family: "Jost";
+    font-size: 24px;
+}
+
+.bonus-system p #highlight-color2{
+    font-style: italic;
+    font-weight: 800;
+}
+
+.bonus-system-item p{
+    font-family: "Jost";
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.bonus-illustration{
+    position: relative;
+}
+
+#p1{
+    position: absolute;
+    left: 270px;
+    top: 250px;
+}
+
+#p2{
+    position: absolute;
+    left: 490px;
+    top: 150px;  
+}
+
+#p3{
+    position: absolute;
+    left: 710px;
+    top: 200px;  
+}
+
+#p4{
+    position: absolute;
+    right: 410px;
+    top: 450px;  
+}
+
+#p5{
+    position: absolute;
+    right: 310px;
+    top: 260px;
+}
+
+#b1{
+    position: absolute;
+    top: 50px;
+    left: 190px;
+}
+
+#b2{
+    position: absolute;
+    top: 380px;
+    left: 400px;
+}
+
+#b3{
+    position: absolute;
+    top: 50px;
+    left: 600px;
+}
+
+#b4{
+    position: absolute;
+    top: 380px;
+    left: 800px;
+}
+
+#b5{
+    position: absolute;
+    top: 50px;
+    right: 270px;
+}
+
+#b6{
+    position: absolute;
+    top: 350px;
+    right: 200px;
+}

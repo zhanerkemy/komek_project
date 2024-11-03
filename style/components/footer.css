@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 120px;
+    border-top: 3px solid black;
+}
+
+.footer_item{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.footer_item:last-child{
+    gap: 80px;
+}
+
+.footer_item p{
+    font-family: "Jost";
+    font-size: 20px;
+    width: 50%;
+    line-height: 28px;
+}
