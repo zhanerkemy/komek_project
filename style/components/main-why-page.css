@@ -1,5 +1,5 @@
 .main-why-page{
-    height: 730px;
+    height: 1000px;
     justify-content: space-between;
     align-items: center;
 }
@@ -10,6 +10,7 @@
     margin-bottom: 100px;
     text-align:center;
 }
+
 .main-why-page-info p {
     font-size: 28px; 
     line-height: 1.6; 

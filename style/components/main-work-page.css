@@ -1,5 +1,5 @@
 .main-work-page{
-    height: 730px;
+    height: 600px;
     justify-content: space-between;
     align-items: center;
 }
@@ -10,29 +10,50 @@ h1{
     margin-bottom: 100px;
     text-align:center;
 }
-.main-work-page-info p {
-    font-size: 25px; 
-    line-height: 1.6; 
-    text-align: center; 
-    margin-bottom: 20px;
+
+.main-work-page-info h3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
 }
+.main-work-page-info h3 br {
+    display: none;          /* Hide the break for better alignment */
+}
+
 
 .main-work-page-img {
-    width: 100%; /* Make sure it takes up the full width */
-    text-align: center; /* Center the image inline */
-    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-work-page-info h3 span {
+    display: inline-block;  /* Ensure the arrow is on the same line */
+    margin-right: 10px;    /* Space between arrow and heading */
 }
 
+.text-overlay {
+    position: absolute;
+    bottom: -820px; 
+    color: black;
+    background-color: rgba(255, 253, 253, 0.5); 
+    padding: 5px 10px;
+    font-size: 65px;
+    text-align: center;
+    border-radius: 4px;
+    white-space: nowrap; 
+}
 .flex-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 20px 0;
+    margin: 20px 20px;
 }
 
 .flex-item {
     flex: 1;
-    margin-right: 10px;
+    margin-right: 100px;
 }
 
 .flex-item:last-child {
@@ -43,5 +64,21 @@ h3 {
     margin: 0;
     font-size:36px;
     display: inline;
+    text-align: right;
+}
+.main-work-page-info {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-end;  /* Align items to the right */
+    text-align: right;      /* Ensure text is right-aligned */
 }
 
+.main-work-page p {  
+    text-align: right;      /* Right-align the paragraph text */
+    margin: 0;              /* Remove default margin */
+    font-size:25px;
+}
+.arrow-icon {
+    margin-right: 10px; /* Space between the arrow and the text */
+    order: -1; /* Place the arrow before the text in the flex layout */
+}

@@ -1,0 +1,42 @@
+.contact{
+    height: 1000px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact h1{
+    font-family: "DeltaGothicOne";
+    font-size: 40px;
+    margin-bottom: 100px;
+    text-align:center;
+}
+.contact .rectangle img{
+    margin-left: 120px;
+    height: 580;
+    width: 600;
+}
+.contact .rectangle p{
+    margin-left: 120px;
+    height: 580;
+    width: 600;
+    font-size: 24px;
+
+}
+.contact .rectangle h3{
+    margin-left: 120px;
+    height: 580;
+    width: 600;
+    font-size: 24px;
+
+}
+.text-overlay {
+    position: absolute;
+    bottom: -320px; 
+    color: black;
+    background-color: rgba(255, 253, 253, 0.5); 
+    padding: 5px 10px;
+    font-size: 65px;
+    text-align: left;
+    border-radius: 4px;
+    white-space: nowrap; 
+}
