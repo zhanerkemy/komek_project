@@ -1,0 +1,50 @@
+.how-to-do{
+    display: flex;
+    flex-direction: column;
+    margin: 150px 50px;
+    position: relative;
+}
+
+.how-to-do-info{
+    width: 60%;
+    padding: 20px 0;
+    margin: 50px;
+
+}
+
+.how-to-do-info h1{
+    text-align:left;
+    margin-bottom: 50px;
+}
+
+.how-to-do-info p{
+    font-family: "Jost";
+    font-size: 28px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+#highlight-color2{
+    color: #ff383f;
+}
+
+.how-to-do-img{
+    position: absolute;
+    right: 120px;
+    bottom: -130px;
+}
+
+.how-to-do-text{
+    position: absolute;
+    right: 40px;
+    bottom: 70px;
+}
+
+.how-to-do-text h3{
+    font-family: "DeltaGothicOne";
+    font-size: 36px;
+}
+
+.hidden{
+    color: transparent;
+}
