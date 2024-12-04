@@ -1,0 +1,56 @@
+.partner-up{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner-up h1{
+    margin: 0px 0 30px 0;
+}
+
+.partner-up p{
+    font-family: "Jost";
+    font-style: italic;
+    font-size: 30px;
+    /* text-align: left; */
+}
+
+.partner-down{
+    display: flex;
+    background-color: #FF6932;
+    justify-content: space-evenly;
+    height: 52%;
+}
+
+.partner-down-left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.partner-down-left p{
+    font-size: 24px;
+    width: 60%;
+    color: white;
+    margin: 30px 0;
+    line-height: 30px;
+}
+
+.partner-down-right{
+    margin: 40px 120px 0 0;
+    align-items: center;
+    text-align: center;
+}
+
+.partner-down-right img{
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+.partner-down-right span{
+    color: white;
+    font-size: 26px;
+}
