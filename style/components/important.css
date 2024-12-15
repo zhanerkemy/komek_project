@@ -1,0 +1,80 @@
+.important{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.important h3{
+    font-family: "DeltaGothicOne";
+    font-size: 50px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.grid{
+    display: grid;
+    gap: 30px;
+    margin: 100px; 
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item span{
+    font-family: "DeltaGothicOne";
+    font-size: 28px;
+    color: #fff;
+    padding: 3%;
+    width: 60%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.grid-item:first-child span, .grid-item:nth-child(4) span {
+    background-color: #23CCBA;
+    opacity: .8;
+}
+
+.grid-item:nth-child(2) span, .grid-item:nth-child(3) span {
+    background-color: #FF0044;
+    opacity: .5;
+}
+
+.grid-item p{
+    font-size: 18px;
+    margin-top: 38px;
+    width: 50%;
+    line-height: 20px;
+}
+
+.grid-item:first-child{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-item:nth-child(2){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2 ;
+}
+
+.grid-item:nth-child(3){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.grid-item:nth-child(4){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
