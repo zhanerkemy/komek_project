@@ -1,0 +1,41 @@
+.telegram-page{
+    display: flex;
+    flex-direction: column;
+    margin: 46px;
+}
+
+.header-tg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.header-tg h3{
+    font-size: 44px;
+    font-family: "DeltaGothicOne";
+}
+
+.tg{
+    display: flex;
+}
+
+.tg li{
+    font-size: 30px;
+    line-height: 46px;
+}
+
+.tg-img{
+    padding: 20px;
+    width: 50%;
+    align-items: center;
+}
+
+.tg-info{
+    display: flex;
+    padding: 20px;
+    width: 50%;
+    align-items: center;
+    text-align: left;
+    
+}
