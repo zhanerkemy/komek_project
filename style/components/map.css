@@ -1,0 +1,104 @@
+.map{
+    position: relative;
+}
+
+.map img{
+    width: 90%;
+}
+
+.map span{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-style: italic;
+    color: rgb(56, 55, 55);
+    font-size: 20px;
+}
+
+.map span:first-child{
+    top: 25%;
+    left: 6%;
+}
+
+.map span:nth-child(2){
+    top: 28%;
+    left: 6%;
+}
+
+.map .city{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+.map .city h5{
+    font-size: 19px;
+    margin-bottom: 8px;
+    color: #E55733;
+    font-weight: bold;
+}
+
+.map .city img{
+    width: 10px;
+}
+
+#almaty{
+    bottom: 26%;
+    right: 26%;
+}
+
+#aktau{
+    bottom: 26%;
+    left: 17%;
+}
+
+#kyzylorda{
+    bottom: 28%;
+    right: 48%;
+}
+
+#taldykorgan{
+    bottom: 39%;
+    right: 22%;
+}
+
+#atyrau{
+    bottom: 40%;
+    left: 18%;
+}
+
+#oskemen{
+    top: 42%;
+    right: 22%;
+}
+
+#karagandy{
+    top: 43%;
+    right: 35%;
+}
+
+#aktobe{
+    top: 42%;
+    left: 28%;
+}
+
+#uralsk{
+    top: 38%;
+    left: 16%;
+}
+
+#astana{
+    top: 32%;
+    right: 40%;
+}
+
+#kokshetau{
+    top: 26%;
+    right: 42%;
+}
+
+#kostanay{
+    top: 27%;
+    right: 55%;
+}
