@@ -1,0 +1,45 @@
+.shelter-page{
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shelter-page-info{
+    margin-left: 90px;
+}
+
+.shelter-page-info h1{
+    font-family: "DeltaGothicOne";
+    font-size: 68px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.shelter-page-info p {
+    margin-top: 10px;
+    font-size: 22px;
+    text-align: left;
+}
+
+.shelter-help{
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #000;
+    width: 330px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 28px;
+}
+
+.shelter-help img{
+    margin-left: 20px;
+    width: 33px;
+    height: 20px;
+}
+
+.shelter-help span{
+    font-size: 24px;
+    padding: 2px;
+    margin: 0 5px;
+}
