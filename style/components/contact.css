@@ -9,7 +9,7 @@
 
 .contact h1 {
     font-family: "DeltaGothicOne";
-    font-size: 60px;
+    font-size: 40px;
     margin-bottom: 40px;
     text-align: center;
 }
@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     gap: 40px; /* Space between colored box and text */
     margin: 0 auto;
@@ -28,20 +28,23 @@
 
 /* Colored Box with Contact Information */
 .contact-info {
-    width: 400px; /* Fixed width */
+    width: 450px; /* Fixed width */
     height: 500px; /* Fixed height */
     background: linear-gradient(to right, #FF6473, #EE7D27);
     padding: 40px;
     border-radius: 15px;
     color: white;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    font-size: 20px; /* Adjust font size for readability */
+    font-size: 24px; /* Adjust font size for readability */
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Space items evenly */
     text-align: left;
 }
-
+.contact-info h3 {
+    text-align: left; /* Align the heading to the left */
+    font-size: 30px;
+}
 /* Social Media List Styling */
 .contact-info ul {
     list-style: none;
@@ -69,7 +72,7 @@
 }
 
 .contact-info ul li img {
-    margin-left: 12px; /* Space between text and logo */
+    margin-left: 20px; /* Space between text and logo */
     width: 28px;
     height: 28px;
     filter: brightness(0) invert(1); /* Makes the logo white */
@@ -79,9 +82,10 @@
 /* Questions Section Styling */
 .contact-questions {
     width: 50%;
-    font-size: 30px;
+    font-size: 24px;
+    font-family: "Jost";
     line-height: 1.8; /* Better line spacing for readability */
-    text-align: left;
+    text-align: right;
 }
 
 .contact-questions p {
@@ -102,27 +106,6 @@
     font-weight: bold;
     margin-bottom: 40px;
 }
-
-/* Responsive Design for Smaller Screens */
-@media (max-width: 768px) {
-    .contact-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 40px; /* Increase spacing for stacked layout */
-    }
-
-    .contact-info {
-        width: 100%;
-        height: auto; /* Auto height for smaller screens */
-        padding: 30px;
-    }
-
-    .contact-questions {
-        width: 100%;
-        font-size: 40px; /* Slightly smaller text for readability */
-    }
-}
-
 
 .contact-questions p {
     margin-bottom: 20px;
