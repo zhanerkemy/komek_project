@@ -3,21 +3,20 @@
     height: 600px;
     justify-content: space-between;
     align-items: center;
-}
-
-.main-page-info{
-    margin-left: 90px;
+    width: 1300px;
 }
 
 .main-page-info h1{
     font-family: "DeltaGothicOne";
-    font-size: 73px;
+    font-size: 66px;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .main-page-info h4{
     font-size: 30px;
     margin: 30px 0;
+    text-align: left;
 }
 
 .main-page-info p {
@@ -31,18 +30,23 @@
     width: 373px;
     padding: 15px;
     border-radius: 20px;
+    margin-top: 50px;
 }
 
-.main-page .help img{
-    margin-left: 30px;
-    width: 33px;
-    height: 20px;
+/* .main-page-img img{
+    margin-left: 40px;
+} */
+
+.main-page-img{
+    /**/
 }
 
 .main-page-info h1 .gradient{
     font-family: "DeltaGothicOne";
-    font-size: 73px;
+    font-size: 66px;
     margin-bottom: 20px;
     width: auto;
-    color: linear-gradient(90deg, #EC7207 0%, #FD5B80 100%);
+    background: linear-gradient(to right, #EC7207, #FD5B80);
+    -webkit-background-clip: text; /* Ensures background is clipped to text */
+    -webkit-text-fill-color: transparent; /* Makes the rest of the text transparent */
 }

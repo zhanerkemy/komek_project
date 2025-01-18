@@ -4,7 +4,11 @@
     margin: 0 40px;
     align-items: center;
     padding: 20px 0;
+<<<<<<< HEAD
     
+=======
+    /* width: 100%; */
+>>>>>>> ed5bb9d077b81ac1f2f2a37da3c5d47bdaba887b
 }
 
 .header_item a{

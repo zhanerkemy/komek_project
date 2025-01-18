@@ -1,5 +1,6 @@
 .news-page{
     height: 760px;
+    width: 100%;
 }
 
 .news-content{
@@ -36,6 +37,7 @@
 }
 
 .news-text{
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -61,7 +63,7 @@
 
 #i1{
     position: absolute;
-    left: 40px;
+    left: 0;
     top: 40px;
     width: 300px;
     height: 100px;
@@ -69,10 +71,10 @@
 
 #i2{
     position: absolute;
-    left: 850px;
+    /* left: 850px; */
     top: 20px;
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
 }
 #i3{
     position: absolute;
@@ -84,23 +86,23 @@
 
 #i4{
     position: absolute;
-    left: 420px;
-    top: 400px;
-    width: 290px;
-    height: 220px;
+    left: 300px;
+    top: 340px;
+    width: 240px;
+    height: 190px;
 }
 #i5{
     position: absolute;
     left: 20px;
     top: 300px;
-    width: 250px;
-    height: 220px;
+    width: 200px;
+    height: 170px;
 }
 
 #i6{
     position: absolute;
     right: 140px;
-    top: 440px;
+    top: 420px;
     width: 300px;
     height: 100px;
 }
